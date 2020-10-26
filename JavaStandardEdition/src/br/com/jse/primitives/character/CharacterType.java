@@ -1,4 +1,4 @@
-package br.com.jse.character;
+package br.com.jse.primitives.character;
 
 public class CharacterType {
     public static void main(String[] args) {

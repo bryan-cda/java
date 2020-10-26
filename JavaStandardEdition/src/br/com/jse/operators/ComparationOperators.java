@@ -1,6 +1,6 @@
 package br.com.jse.operators;
 
-public class Operators {
+public class ComparationOperators {
     /**
      * [ + sum ]
      * [ - subtraction ]
