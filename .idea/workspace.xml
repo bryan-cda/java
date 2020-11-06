@@ -1,128 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="17d712c0-e1c7-4fd8-8490-1ddb49c726ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jse/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/.idea/java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/exception.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/src/main/java/br/com/example/exception/InvalidSexyTypeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/src/main/java/br/com/example/exception/SexyType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/src/main/java/br/com/example/exception/SexyTypeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/src/main/java/checked/CheckedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/src/main/java/unckecked/UncheckedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/src/test/java/br/com/example/exception/SexyTypeExceptionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/src/test/java/checked/CheckedExceptionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/src/test/java/unckecked/UncheckedExceptionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/target/classes/br/com/example/exception/InvalidSexyTypeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/target/classes/br/com/example/exception/SexyType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/target/classes/br/com/example/exception/SexyTypeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/target/classes/checked/CheckedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/target/classes/checked/OtherClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/target/classes/checked/TestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/target/classes/unckecked/IndexOutOfBoundExceptionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/target/classes/unckecked/UncheckedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/target/test-classes/br/com/example/exception/SexyTypeExceptionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jse/target/test-classes/checked/CheckedExceptionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/artifacts/jsp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/artifacts/jsp_javaEEApplication_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/libraries/jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/libraries/postgresql_9_3_1101_jdbc4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.idea/webContexts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/META-INF/application.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/jsp.eml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/jsp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/jsp.userlibraries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/lib/javax.annotation.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/lib/javax.ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/lib/javax.jms.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/lib/javax.persistence.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/lib/javax.resource.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/lib/javax.servlet.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/lib/javax.servlet.jsp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/lib/javax.transaction.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/Footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/GetForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/Header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/META-INF/application.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/ResultVotation.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/Votation.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/classes/beans/Authentication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/classes/beans/Candidates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/classes/beans/ShowRandomNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/classes/filter/Filter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/classes/repository/DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/classes/repository/SimpleConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/classes/servlets/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/classes/servlets/VotationServlets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/lib/postgresql-9.3-1101-jdbc4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/images/rj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/images/urna.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/scripts/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp/style/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp_javaEEApplication_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/artifacts/jsp_javaEEApplication_exploded/META-INF/application.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/out/production/jsp/META-INF/jsp.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/beans/Authentication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/beans/Candidates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/beans/ShowRandomNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/filter/Filter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/repository/DAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/repository/SimpleConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/servlets/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/servlets/VotationServlets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/target/classes/beans/Authentication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/target/classes/beans/Candidates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/target/classes/beans/ShowRandomNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/target/classes/filter/Filter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/target/classes/repository/DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/target/classes/repository/SimpleConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/target/classes/servlets/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/target/classes/servlets/VotationServlets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/Footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/GetForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/Header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/ResultVotation.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/Votation.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/WEB-INF/lib/postgresql-9.3-1101-jdbc4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/images/rj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/images/urna.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/scripts/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/web/style/style.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStandardEdition/src/br/com/jse/control_flux/ControlFlux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/operators/AssignmentOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/operators/AssignmentOperators.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,10 +49,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaStandardEdition" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -159,13 +65,29 @@
       <option name="presentableId" value="Default" />
       <updated>1603746869779</updated>
       <workItem from="1603746871005" duration="50000" />
+      <workItem from="1604633947761" duration="153000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604634099378">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604634099378" />
     <state x="65" y="25" key="new project wizard" timestamp="1603746919051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
