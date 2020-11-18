@@ -37,9 +37,7 @@ public class CurrentAccount extends Account {
             super.withdraw(value + TransactionTypeEnum.TED.fee);
             account.deposit(value);
         }
-        /**
-         * Pix Case
-         */
+
         else{
             super.withdraw(value);
             account.deposit(value);

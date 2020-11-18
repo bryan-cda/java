@@ -46,7 +46,7 @@ public abstract class Account {
 
     public boolean withdraw(double value){
         if(balance >= value){
-            balance = balance - value;
+            balance -= value;
             return true;
         } else{
             return false;
@@ -55,7 +55,7 @@ public abstract class Account {
 
     public void transfer(double value, Account account){
         if(this.balance >= value){
-            this.balance = this.balance - value;
+            this.balance -= value;
             account.deposit(value);
         }
     }
