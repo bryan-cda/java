@@ -2,7 +2,7 @@ package br.com.bitbank.account;
 
 import br.com.bitbank.client.Client;
 
-public class Account {
+public abstract class Account {
     private double balance;
     private int agency;
     private int accountNumber;

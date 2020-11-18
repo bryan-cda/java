@@ -1,6 +1,5 @@
 package br.com.bitbank.online;
 
-import br.com.bitbank.account.Account;
 import br.com.bitbank.account.type.AccountTypeEnum;
 import br.com.bitbank.account.type.TransactionTypeEnum;
 import br.com.bitbank.account.type.current.CurrentAccount;
@@ -16,7 +15,7 @@ public class InternetBaking {
         cc.setOwner(new Client("Bryan Duarte", "111.333.444.-2","(21) 8899-7712", "Rua B, 15"));
         cc.setAccountType(AccountTypeEnum.CC);
         cc.setBalance(500);
-        cc.setTransactionTypeEnum(TransactionTypeEnum.TED);
+        cc.setTransactionTypeEnum(TransactionTypeEnum.PIX);
 
 
         cp.setAgency(5544);

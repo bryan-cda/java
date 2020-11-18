@@ -1,11 +1,12 @@
 package br.com.bitbank.department.rh;
 
+import br.com.bitbank.employee.BankOperator;
 import br.com.bitbank.employee.Employee;
 import br.com.bitbank.employee.Manager;
 
 public class RH {
     public static void main(String[] args) {
-        Employee bank_operator = new Employee();
+        Employee bank_operator = new BankOperator();
         bank_operator.setName("John Due");
         bank_operator.setSalary(3800.0);
         bank_operator.setCpf("123.456.789-02");

@@ -1,12 +1,13 @@
 package br.com.bitbank.terminal;
 
 import br.com.bitbank.account.Account;
+import br.com.bitbank.account.type.current.CurrentAccount;
 import br.com.bitbank.account.type.savings.SavingAccount;
 import br.com.bitbank.client.Client;
 
 public class Terminal {
     public static void main(String[] args) {
-        Account ACC_4526 = new Account();
+        Account ACC_4526 = new CurrentAccount();
 
         ACC_4526.setBalance(2000);
         ACC_4526.setAgency(4888);

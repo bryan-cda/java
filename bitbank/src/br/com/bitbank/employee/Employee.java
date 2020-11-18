@@ -1,6 +1,6 @@
 package br.com.bitbank.employee;
 
-public class Employee {
+public abstract class Employee {
     private String name;
     private String cpf;
     private Double salary;
@@ -14,9 +14,7 @@ public class Employee {
                 '}';
     }
 
-    public Double getBonus(){
-        return salary * 0.5;
-    }
+    public abstract Double getBonus();
 
     public String getName() {
         return name;
