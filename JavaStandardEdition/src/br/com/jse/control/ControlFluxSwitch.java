@@ -1,4 +1,4 @@
-package br.com.jse.controlflux;
+package br.com.jse.control;
 
 public class ControlFluxSwitch {
     public static void main(String[] args) {
