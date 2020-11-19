@@ -37,6 +37,8 @@ public class Terminal {
 
         Account account = new SavingAccount();
 
+        System.out.println();
+
 
     }
 }
