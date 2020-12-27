@@ -1,7 +1,21 @@
 
-c
-3src/br/com/jse/primitives/integer/IntegerTypes.java,d\7\d70e497220fc6acb542e6c2e838e77cf55c83000
+^
+.src/br/com/jse/couping/adjusted/DAOModule.java,7\2\72b64c8e225d93681b51dd154d942454dd8ef972
+T
+$src/br/com/jse/linked/list/Cell.java,c\2\c224644306f03faeec99f24e148b03cf723bcdf0
+^
+.src/br/com/jse/linked/list/LinkedListTest.java,5\6\560420088ce8c51d6f53b382a70072ce38edd0d6
+U
+%src/br/com/jse/vector/VectorTest.java,b\1\b14b027aaf8ad379e0c9048a45347beee09e6354
+Q
+!src/br/com/jse/vector/Vector.java,8\c\8cf3792ca43177ae5b2eebc053a1432d8fdbe2b9
+R
+"src/br/com/jse/vector/Student.java,9\8\9830af6859558218499870393771249f656f5c0b
+Z
+*src/br/com/jse/linked/list/LinkedList.java,9\2\9243999d69cf38b171114a92c329bc4e992e9b4a
+?
+lorem-ipsum.txt,1\a\1aa18ee0099f88e799ce81ad35070106e5777bbf
+6
+mg.txt,f\0\f01c90d791c4dfb9abba506778089677ad43b0f4
 W
-'src/br/com/jse/pyramid/PyramidTest.java,4\0\4023ec55916da992747507a64f28720407c2c298
-V
-&src/br/com/jse/fatorial/Factorial.java,2\f\2fcc70c22c746eda9f9d28999ca9afa1fe57ba41
+'src/br/com/jse/io/InputOutputClass.java,4\7\4771c27de8ae0f2d54c2359a01125afe26761536
