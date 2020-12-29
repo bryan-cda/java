@@ -1,12 +1,11 @@
 
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8î€±çê.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8î€±çê.
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8î€±çê.
 i
-java:S2095
-"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ŠËÌî8æœĞ½é.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ8æœĞ½é.
-n
-java:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ì›òèıÿÿÿÿ8İÚÒ½é.
-d
-java:S1854"BRemove this useless assignment to local variable "bufferedWriter".(ì›òèıÿÿÿÿ8­öØ½é.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ8­öØ½é.
-U
-java:S1481"3Remove this unused "bufferedWriter" local variable.(ì›òèıÿÿÿÿ8­öØ½é.
+java:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(¿åÎ8î€±çê.
+K
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8î€±çê.

@@ -1,16 +1,6 @@
 
-^
-.src/br/com/jse/couping/adjusted/DAOModule.java,7\2\72b64c8e225d93681b51dd154d942454dd8ef972
 T
 $src/br/com/jse/linked/list/Cell.java,c\2\c224644306f03faeec99f24e148b03cf723bcdf0
-^
-.src/br/com/jse/linked/list/LinkedListTest.java,5\6\560420088ce8c51d6f53b382a70072ce38edd0d6
-U
-%src/br/com/jse/vector/VectorTest.java,b\1\b14b027aaf8ad379e0c9048a45347beee09e6354
-Q
-!src/br/com/jse/vector/Vector.java,8\c\8cf3792ca43177ae5b2eebc053a1432d8fdbe2b9
-R
-"src/br/com/jse/vector/Student.java,9\8\9830af6859558218499870393771249f656f5c0b
 Z
 *src/br/com/jse/linked/list/LinkedList.java,9\2\9243999d69cf38b171114a92c329bc4e992e9b4a
 ?
@@ -19,3 +9,13 @@ Z
 mg.txt,f\0\f01c90d791c4dfb9abba506778089677ad43b0f4
 W
 'src/br/com/jse/io/InputOutputClass.java,4\7\4771c27de8ae0f2d54c2359a01125afe26761536
+<
+libertas.txt,c\3\c30e567cc890149d6f219b638a1ac7ba2590d8e5
+6
+nu.csv,5\c\5c66c90f3f84c9c574f4976479933b4520cc8ceb
+S
+#src/br/com/jse/io/BufferedTest.java,2\3\2341987ee1ae68b3a111b0b0e28d81efe72d7f8c
+V
+&src/br/com/jse/io/PrintStreamTest.java,0\9\09176c30045cc187b722d3f2e6bb43733e09a2ad
+R
+"src/br/com/jse/io/ScannerTest.java,3\5\35968c93ed9239e77128f1136ee5a3ea2320dd73
