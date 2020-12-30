@@ -9,7 +9,7 @@
 		<h2>Let's go?</h2>
 		<a href="bytebank.jsp">Home</a>
 	
-		<form action="/bytebank/banks" method="POST">
+		<form action="/bytebank/banks">
 			<table>
 				<thead>
 					<tr>
