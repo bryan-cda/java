@@ -1,20 +1,18 @@
 package br.com.jse.colletions;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class Course implements Comparable<Course> {
 
     private String name;
     private Integer duration;
     private List<Classes> classes = new ArrayList<>();
+    private List<Students> students = new ArrayList<>();
+    private Map<String, Students> studentByRegister = new HashMap<>();
 
     public Course(String name, Integer duration) {
         this.name = name;
         this.duration = duration;
-        this.classes = classes;
     }
 
     public Course(String name, Integer duration, List<Classes> classes) {
@@ -68,5 +66,25 @@ public class Course implements Comparable<Course> {
        return classes.stream().mapToInt(Classes::getTime).sum();
     }
 
+    public List<Students> getStudents() {
+        return Collections.unmodifiableList(students);
+    }
 
+    public void setStudents(List<Students> students) {
+        this.students = students;
+    }
+
+    public void registerStudent(Students student){
+        this.students.add(student);
+        this.studentByRegister.put(student.getRegister(), student);
+    }
+
+    public Students getStudentByRegister(Students students) throws NoSuchFieldException {
+        Students foundStudent = studentByRegister.get(students.getRegister());
+
+        if(!Objects.nonNull(foundStudent)){
+            throw new NoSuchFieldException(String.format("Student not found for register '%s'", students.getRegister()));
+        }
+        return foundStudent;
+    }
 }
