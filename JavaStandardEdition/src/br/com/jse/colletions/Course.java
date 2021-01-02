@@ -25,16 +25,10 @@ public class Course implements Comparable<Course> {
 
     @Override
     public String toString() {
-        StringBuilder course = new StringBuilder("{");
-        course.append("'Name':"+ name+",");
-
-        Integer duration = 0;
-        for(Classes c : classes){
-            duration += c.getTime();
-        }
-        course.append("'Duration':"+ duration+" min}");
-
-        return course.toString();
+        return "Course {" +
+                " Name = '" + name + '\'' +
+                ", Duration = " + getTotalOfDuration()+ " minutes " +
+                '}';
     }
 
     public String getName() {
@@ -68,6 +62,10 @@ public class Course implements Comparable<Course> {
     @Override
     public int compareTo(Course o) {
         return this.name.compareTo(o.name);
+    }
+
+    public Integer getTotalOfDuration(){
+       return classes.stream().mapToInt(Classes::getTime).sum();
     }
 
 
