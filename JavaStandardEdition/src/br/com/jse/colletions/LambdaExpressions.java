@@ -37,7 +37,7 @@ public class LambdaExpressions {
         frontEndFrameworks.add("Vue");
         frontEndFrameworks.add("Node");
         frontEndFrameworks.add("Express");
-        System.out.println("     ");
+
 
         Function<String, Integer> functionComparator = s -> s.length();
 
@@ -53,6 +53,32 @@ public class LambdaExpressions {
         frontEndFrameworks.sort(comparing);
 
         frontEndFrameworks.forEach(l -> System.out.println(l));
+        System.out.println("     ");
+
+        IDE intelliJ = new IDE("Intellij Ultimate", "JetBrains");
+        IDE eclipse = new IDE("Eclipse Oxygen", "Eclipse Foundation");
+        IDE netbeans = new IDE("Netbeans", "Apache");
+
+        List<IDE> ides = new ArrayList<>();
+        ides.add(intelliJ);
+        ides.add(eclipse);
+        ides.add(netbeans);
+
+        ides.sort(Comparator.comparing(IDE::getName));
+
+        ides.forEach(i -> System.out.println(i.getName()));
+
+        ides.stream().filter(i ->
+                i.getBrand().toLowerCase().startsWith("e")
+        ).forEach(i -> System.out.println(i.getBrand()));
+
+
+        int len = ides.stream().filter(i -> i.getBrand().length() > 5).mapToInt(i -> i.getBrand().length()).sum();
+
+        System.out.println(len);
+
+
+
 
     }
 }
