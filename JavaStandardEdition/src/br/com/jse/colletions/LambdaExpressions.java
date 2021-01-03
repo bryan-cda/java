@@ -2,6 +2,8 @@ package br.com.jse.colletions;
 
 import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Collector;
+import java.util.stream.Stream;
 
 public class LambdaExpressions {
     public static void main(String[] args) {
@@ -55,14 +57,34 @@ public class LambdaExpressions {
         frontEndFrameworks.forEach(l -> System.out.println(l));
         System.out.println("     ");
 
-        IDE intelliJ = new IDE("Intellij Ultimate", "JetBrains");
-        IDE eclipse = new IDE("Eclipse Oxygen", "Eclipse Foundation");
-        IDE netbeans = new IDE("Netbeans", "Apache");
+        IDE intelliJ = new IDE("Intellij Ultimate", "JetBrains", 3500);
+        IDE eclipse = new IDE("Eclipse Oxygen", "Eclipse Foundation", 100);
+        IDE netbeans = new IDE("Netbeans", "Apache", 1000);
+        IDE vsCode = new IDE("Vs Code", "Microsoft", 1200);
+        IDE atom = new IDE("Atom", "Atom", 1400);
+        IDE notepadPlusPlus = new IDE("Notepad++", "Notepad++", 1500);
+        IDE phpStorm = new IDE("PhpStorm", "PhpStorm", 1300);
+        IDE pycharm = new IDE("Pycharm", "JetBrains", 1600);
+        IDE goland = new IDE("Goland", "JetBrains", 1900);
+        IDE sublimeText = new IDE("SublimeText", "SublimeText", 600);
 
         List<IDE> ides = new ArrayList<>();
         ides.add(intelliJ);
         ides.add(eclipse);
         ides.add(netbeans);
+        ides.add(vsCode);
+        ides.add(atom);
+        ides.add(notepadPlusPlus);
+        ides.add(phpStorm);
+        ides.add(pycharm);
+        ides.add(goland);
+        ides.add(sublimeText);
+
+        ides.sort(Comparator.comparing(IDE::getPrice));
+
+        ides.forEach(i -> System.out.println(i.getPrice()));
+
+        System.out.println(" ");
 
         ides.sort(Comparator.comparing(IDE::getName));
 
@@ -72,10 +94,17 @@ public class LambdaExpressions {
                 i.getBrand().toLowerCase().startsWith("e")
         ).forEach(i -> System.out.println(i.getBrand()));
 
+        /**
+         * Return total of IDE with have price major than 600
+         */
+        int total = (int) ides.stream().filter(i -> i.getPrice() > 600).mapToInt(IDE::getPrice).count();
 
-        int len = ides.stream().filter(i -> i.getBrand().length() > 5).mapToInt(i -> i.getBrand().length()).sum();
 
-        System.out.println(len);
+        System.out.println(total);
+
+        Stream<String> stringStream = ides.stream().map(IDE::getName);
+
+        System.out.println(Arrays.toString(stringStream.toArray()));
 
 
 
