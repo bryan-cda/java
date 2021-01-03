@@ -3,10 +3,11 @@ package br.com.jse.colletions;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collector;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class LambdaExpressions {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoSuchFieldException {
         List<String> backEndMainLanguages = new ArrayList<>();
 
         backEndMainLanguages.add("Java");
@@ -83,31 +84,60 @@ public class LambdaExpressions {
         ides.sort(Comparator.comparing(IDE::getPrice));
 
         ides.forEach(i -> System.out.println(i.getPrice()));
-
         System.out.println(" ");
 
         ides.sort(Comparator.comparing(IDE::getName));
+        System.out.println(" ");
 
         ides.forEach(i -> System.out.println(i.getName()));
+        System.out.println(" ");
 
         ides.stream().filter(i ->
                 i.getBrand().toLowerCase().startsWith("e")
         ).forEach(i -> System.out.println(i.getBrand()));
+        System.out.println(" ");
 
         /**
          * Return total of IDE with have price major than 600
          */
-        int total = (int) ides.stream().filter(i -> i.getPrice() > 600).mapToInt(IDE::getPrice).count();
+        int total = (int) ides.stream()
+                .filter(i -> i.getPrice() > 600)
+                .mapToInt(IDE::getPrice)
+                .count();
+
+
+        System.out.println("Print find any starts with p");
+        ides.stream()
+                .filter(i -> i.getName().toLowerCase()
+                        .startsWith("p"))
+                        .findAny()
+                        .stream().forEach(i -> System.out.println(i.getName()));
+        System.out.println(" ");
 
 
         System.out.println(total);
+        System.out.println(" ");
 
         Stream<String> stringStream = ides.stream().map(IDE::getName);
 
         System.out.println(Arrays.toString(stringStream.toArray()));
+        System.out.println(" ");
+
+        List<IDE> collect = ides.stream().filter(i -> i.getPrice() > 600)
+                .collect(Collectors.toList());
+
+        IDE e = ides.stream()
+                .filter(i -> i.getBrand().toLowerCase().startsWith("e"))
+                .findAny()
+                .orElseThrow(NoSuchFieldException::new);
+
+        System.out.println(e);
+        System.out.println(" ");
 
 
-
-
+        ides.stream()
+                .filter(i -> i.getPrice() > 600)
+                .collect(Collectors.toMap(c -> c.getName(), c -> c.getPrice()))
+                .forEach((name, price) -> System.out.println(String.format("{'name': '%s', 'price': %d} ", name, price)));
     }
 }
