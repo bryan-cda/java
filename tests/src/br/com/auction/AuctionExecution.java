@@ -1,5 +1,6 @@
 package br.com.auction;
 
+import br.com.auction.builder.AuctionBuilder;
 import br.com.auction.service.AuctionService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -56,19 +57,13 @@ public class AuctionExecution {
     @Test
     @DisplayName("Given proposal offering then return the smaller")
     public void givenGenericAuction_whenMakeProposalWithManyOfferings_thenReturnTheSmaller(){
-        Auction auction = new Auction("Used Toyota Car 2009");
-
-        Offering offering1 = new Offering(john, 9000D);
-        Offering offering2 = new Offering(cloe, 9500D);
-        Offering offering3 = new Offering(astrid, 10000D);
-        Offering offering4 = new Offering(mike, 14000D);
-        Offering offering5 = new Offering(aida, 150000D);
-
-        auction.proposal(offering1);
-        auction.proposal(offering2);
-        auction.proposal(offering3);
-        auction.proposal(offering4);
-        auction.proposal(offering5);
+        Auction auction = new AuctionBuilder().create("Ford Ka Sedan 2012")
+                .withProposal(john, 9000D)
+                .withProposal(cloe, 9500D)
+                .withProposal(astrid, 10000D)
+                .withProposal(mike, 14000D)
+                .withProposal(aida, 15000D)
+                .build();
 
         Double smallerExpected = 9000D;
 
@@ -81,11 +76,9 @@ public class AuctionExecution {
     @Test
     @DisplayName("Given just one proposal offering then return the major and then smaller")
     public void givenGenericAuction_whenMakeJustOneProposal_thenReturnTheSmallerAndTheMajorSameTime(){
-        Auction auction = new Auction("Used Toyota Car 2009");
-
-        Offering offering1 = new Offering(john, 9000D);
-
-        auction.proposal(offering1);
+        Auction auction = new AuctionBuilder().create("Ford Eco Sport 2013")
+                .withProposal(john, 9000D)
+                .build();
 
         Double smallerExpected = 9000D;
         Double majorExpected = 9000D;
@@ -100,22 +93,15 @@ public class AuctionExecution {
     @Test
     @DisplayName("Given proposals offering then return the three majors offering")
     public void givenGenericAuction_whenMakeProposal_thenReturnTheThreeMajorOffering(){
-        Auction auction = new Auction("Used Nissan Versa Car year 2011");
+        Auction auction = new AuctionBuilder().create("Ford Ka Sedan 2012")
+                .withProposal(john, 9000D)
+                .withProposal(cloe, 9500D)
+                .withProposal(astrid, 10000D)
+                .withProposal(mike, 14000D)
+                .withProposal(aida, 15000D)
+                .build();
 
-
-        Offering offering1 = new Offering(john, 9000D);
-        Offering offering2 = new Offering(cloe, 9500D);
-        Offering offering3 = new Offering(astrid, 10000D);
-        Offering offering4 = new Offering(mike, 14000D);
-        Offering offering5 = new Offering(aida, 150000D);
-
-        auction.proposal(offering1);
-        auction.proposal(offering2);
-        auction.proposal(offering3);
-        auction.proposal(offering4);
-        auction.proposal(offering5);
-
-        Double theFirsMajor = 150000D;
+        Double theFirsMajor = 15000D;
         Double theSecondMajor = 14000D;
         Double theThirdMajor = 10000D;
 
