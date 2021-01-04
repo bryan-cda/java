@@ -32,7 +32,7 @@ public class AuctionService {
             return 0;
         });
 
-        threeMajors = threeMajors.subList(0,3);
+        threeMajors = threeMajors.subList(0, threeMajors.size() >= 3 ? 3 : threeMajors.size());
         return majorValue;
     }
 

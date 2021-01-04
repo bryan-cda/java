@@ -2,6 +2,8 @@ package br.com.auction;
 
 import br.com.auction.service.AuctionService;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -9,14 +11,26 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AuctionExecution {
-    @Test
-    public void main(){
-        User john = new User(1L, "John Due");
-        User cloe = new User(2L, "Cloe Chan");
-        User astrid = new User(3L, "Astrid Zoe");
-        User mike = new User(4L, "Mike Shin");
-        User aida = new User(5L, "Aida Ross");
 
+    private AuctionService auctionService;
+    private User john;
+    private User cloe;
+    private User astrid;
+    private User mike;
+    private User aida;
+    @BeforeEach
+    public void setup(){
+        this.auctionService = new AuctionService();
+
+        this.john = new User(1L, "John Due");
+        this.cloe = new User(2L, "Cloe Chan");
+        this.astrid = new User(3L, "Astrid Zoe");
+        this.mike = new User(4L, "Mike Shin");
+        this.aida = new User(5L, "Aida Ross");
+    }
+    @Test
+    @DisplayName("Given proposal offering then return the major")
+    public void givenGenericAuction_whenMakeProposalWithManyOfferings_thenReturnTheMajor(){
         Auction auction = new Auction("Home at New York");
 
         Offering offering1 = new Offering(john, 120000D);
@@ -34,20 +48,82 @@ public class AuctionExecution {
         Double majorExpected = 190000D;
         Double smallerExpected = 120000D;
 
-        AuctionService auctionService = new AuctionService();
+        auctionService.getMajorOffering(auction);
+        assertEquals(majorExpected, auctionService.getMajorOffering(auction));
+
+    }
+
+    @Test
+    @DisplayName("Given proposal offering then return the smaller")
+    public void givenGenericAuction_whenMakeProposalWithManyOfferings_thenReturnTheSmaller(){
+        Auction auction = new Auction("Used Toyota Car 2009");
+
+        Offering offering1 = new Offering(john, 9000D);
+        Offering offering2 = new Offering(cloe, 9500D);
+        Offering offering3 = new Offering(astrid, 10000D);
+        Offering offering4 = new Offering(mike, 14000D);
+        Offering offering5 = new Offering(aida, 150000D);
+
+        auction.proposal(offering1);
+        auction.proposal(offering2);
+        auction.proposal(offering3);
+        auction.proposal(offering4);
+        auction.proposal(offering5);
+
+        Double smallerExpected = 9000D;
+
         auctionService.getMajorOffering(auction);
 
-        List<Offering> threeMajor = auctionService.getThreeMajors();
-
-
-        assertEquals(majorExpected, auctionService.getMajorOffering(auction));
         assertEquals(smallerExpected, auctionService.getSmallerOffering(auction));
-        assertEquals(threeMajor.size(), 3);
-        assertEquals(threeMajor.get(0).getValue(), 190000D);
-        assertEquals(threeMajor.get(1).getValue(), 180000D);
-        assertEquals(threeMajor.get(2).getValue(), 140000D);
+
+    }
+
+    @Test
+    @DisplayName("Given just one proposal offering then return the major and then smaller")
+    public void givenGenericAuction_whenMakeJustOneProposal_thenReturnTheSmallerAndTheMajorSameTime(){
+        Auction auction = new Auction("Used Toyota Car 2009");
+
+        Offering offering1 = new Offering(john, 9000D);
+
+        auction.proposal(offering1);
+
+        Double smallerExpected = 9000D;
+        Double majorExpected = 9000D;
+
+        auctionService.getMajorOffering(auction);
+
+        assertEquals(smallerExpected, auctionService.getSmallerOffering(auction));
+        assertEquals(majorExpected, auctionService.getSmallerOffering(auction));
+
+    }
+
+    @Test
+    @DisplayName("Given proposals offering then return the three majors offering")
+    public void givenGenericAuction_whenMakeProposal_thenReturnTheThreeMajorOffering(){
+        Auction auction = new Auction("Used Nissan Versa Car year 2011");
 
 
+        Offering offering1 = new Offering(john, 9000D);
+        Offering offering2 = new Offering(cloe, 9500D);
+        Offering offering3 = new Offering(astrid, 10000D);
+        Offering offering4 = new Offering(mike, 14000D);
+        Offering offering5 = new Offering(aida, 150000D);
+
+        auction.proposal(offering1);
+        auction.proposal(offering2);
+        auction.proposal(offering3);
+        auction.proposal(offering4);
+        auction.proposal(offering5);
+
+        Double theFirsMajor = 150000D;
+        Double theSecondMajor = 14000D;
+        Double theThirdMajor = 10000D;
+
+        auctionService.getMajorOffering(auction);
+
+        assertEquals(theFirsMajor, auctionService.getThreeMajors().get(0).getValue());
+        assertEquals(theSecondMajor, auctionService.getThreeMajors().get(1).getValue());
+        assertEquals(theThirdMajor, auctionService.getThreeMajors().get(2).getValue());
 
     }
 }
