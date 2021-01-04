@@ -6,6 +6,7 @@ import br.com.auction.Offering;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Objects;
 
 public class AuctionService {
 
@@ -13,7 +14,11 @@ public class AuctionService {
     private Double smallerValue = Double.POSITIVE_INFINITY;
     private List<Offering> threeMajors;
 
-    public Double getMajorOffering(Auction auction){
+    public Double getMajorOffering(Auction auction) throws NoSuchFieldException {
+        if(auction.getOfferingList().size() == 0){
+            throw new NoSuchFieldException("Auction without proposal offering");
+        }
+        
         for(Offering value : auction.getOfferingList()){
 
             if(value.getValue() > majorValue){

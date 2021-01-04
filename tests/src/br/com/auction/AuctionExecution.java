@@ -2,12 +2,7 @@ package br.com.auction;
 
 import br.com.auction.builder.AuctionBuilder;
 import br.com.auction.service.AuctionService;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-
-import java.util.List;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -19,6 +14,7 @@ public class AuctionExecution {
     private User astrid;
     private User mike;
     private User aida;
+
     @BeforeEach
     public void setup(){
         this.auctionService = new AuctionService();
@@ -29,9 +25,12 @@ public class AuctionExecution {
         this.mike = new User(4L, "Mike Shin");
         this.aida = new User(5L, "Aida Ross");
     }
+
+
+
     @Test
     @DisplayName("Given proposal offering then return the major")
-    public void givenGenericAuction_whenMakeProposalWithManyOfferings_thenReturnTheMajor(){
+    public void givenGenericAuction_whenMakeProposalWithManyOfferings_thenReturnTheMajor() throws NoSuchFieldException {
         Auction auction = new Auction("Home at New York");
 
         Offering offering1 = new Offering(john, 120000D);
@@ -56,7 +55,7 @@ public class AuctionExecution {
 
     @Test
     @DisplayName("Given proposal offering then return the smaller")
-    public void givenGenericAuction_whenMakeProposalWithManyOfferings_thenReturnTheSmaller(){
+    public void givenGenericAuction_whenMakeProposalWithManyOfferings_thenReturnTheSmaller() throws NoSuchFieldException {
         Auction auction = new AuctionBuilder().create("Ford Ka Sedan 2012")
                 .withProposal(john, 9000D)
                 .withProposal(cloe, 9500D)
@@ -75,7 +74,7 @@ public class AuctionExecution {
 
     @Test
     @DisplayName("Given just one proposal offering then return the major and then smaller")
-    public void givenGenericAuction_whenMakeJustOneProposal_thenReturnTheSmallerAndTheMajorSameTime(){
+    public void givenGenericAuction_whenMakeJustOneProposal_thenReturnTheSmallerAndTheMajorSameTime() throws NoSuchFieldException {
         Auction auction = new AuctionBuilder().create("Ford Eco Sport 2013")
                 .withProposal(john, 9000D)
                 .build();
@@ -92,7 +91,7 @@ public class AuctionExecution {
 
     @Test
     @DisplayName("Given proposals offering then return the three majors offering")
-    public void givenGenericAuction_whenMakeProposal_thenReturnTheThreeMajorOffering(){
+    public void givenGenericAuction_whenMakeProposal_thenReturnTheThreeMajorOffering() throws NoSuchFieldException {
         Auction auction = new AuctionBuilder().create("Ford Ka Sedan 2012")
                 .withProposal(john, 9000D)
                 .withProposal(cloe, 9500D)
@@ -112,4 +111,17 @@ public class AuctionExecution {
         assertEquals(theThirdMajor, auctionService.getThreeMajors().get(2).getValue());
 
     }
+
+    @Test
+    @DisplayName("Given no proposals offering then throw runtime exception")
+    public void givenGenericAuction_whenMakeNoProposal_thenThrowRuntimeException(){
+        Auction auction = new AuctionBuilder().create("Ford Ka Sedan 2012")
+                .build();
+
+       Assertions.assertThrows(NoSuchFieldException.class,() -> {
+           auctionService.getMajorOffering(auction);
+       });
+
+    }
+
 }
