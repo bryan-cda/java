@@ -16,7 +16,4 @@ public enum EmployeeEnum {
         return employeeType;
     }
 
-    public void setEmployeeType(String employeeType) {
-        this.employeeType = employeeType;
-    }
 }
