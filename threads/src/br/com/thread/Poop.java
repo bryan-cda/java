@@ -8,6 +8,6 @@ public class Poop implements Runnable{
     }
     @Override
     public void run() {
-        bathroom.poop();
+        bathroom.poop(Thread.currentThread().getName());
     }
 }

@@ -9,6 +9,6 @@ public class Urinate implements Runnable {
     }
     @Override
     public void run() {
-        bathroom.urinate();
+        bathroom.urinate(Thread.currentThread().getName());
     }
 }

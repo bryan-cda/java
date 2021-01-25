@@ -2,8 +2,9 @@ package br.com.thread;
 
 public class BathroomUseThreadTest {
     public static void main(String[] args) {
-        Thread urinate = new Thread(new Urinate(new Bathroom("John")));
-        Thread poop = new Thread(new Poop(new Bathroom("Cora")));
+        Bathroom bathroom = new Bathroom();
+        Thread urinate = new Thread(new Urinate(bathroom), "John");
+        Thread poop = new Thread(new Urinate(bathroom), "Cora");
 
         urinate.start();
         poop.start();
