@@ -1,4 +1,6 @@
-package br.com.thread;
+package br.com.thread.activity;
+
+import br.com.thread.Bathroom;
 
 public class Poop implements Runnable{
     private Bathroom bathroom;

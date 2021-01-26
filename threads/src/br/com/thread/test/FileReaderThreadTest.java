@@ -1,4 +1,6 @@
-package br.com.thread;
+package br.com.thread.test;
+
+import br.com.thread.activity.ReadFile;
 
 public class FileReaderThreadTest {
     public static void main(String[] args) {

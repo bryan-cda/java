@@ -1,4 +1,4 @@
-package br.com.thread;
+package br.com.thread.activity;
 
 import java.io.File;
 import java.io.FileNotFoundException;
