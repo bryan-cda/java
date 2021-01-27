@@ -1,6 +1,6 @@
-package br.com.jse.print;
+package br.com.jse.primitive;
 
-public class Print {
+public class PrimitiveTypesExplanation {
     public static void main(String[] args) {
 
         //Print primitive types
