@@ -1,0 +1,22 @@
+
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(Í¸‡Şûÿÿÿÿ8â´ ìö.
+J
+java:S1128"-Remove this unused import 'java.time.Period'.(šÉ¢½8œç¼ïö.
+W
+java:S1118D":Add a private constructor to hide the implicit public one.(ÿ±ÃÛ8æéºïö.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(íüüÔ8’Ÿíéö.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ş®à8â´ ìö.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(íüüÔ8ÍŞïéö.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Ô±¼™øÿÿÿÿ8œç¼ïö.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(ÀæÎà8úÊïö.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ôÌ¿ò8ûğ“éö.
+N
+java:S1481"1Remove this unused "declarations" local variable.(ÿÃ™œ8ÁÖîñö.
+]
+java:S1854"@Remove this useless assignment to local variable "declarations".(ÿÃ™œ8Êìãéö.
+R
+java:S2440"5Remove this instantiation of "VariablesDeclarations".(ÿÃ™œ8Êìãéö.
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(¹Çƒ8ï¸Ëïö.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(Ø°¥©ûÿÿÿÿ8œç¼ïö.
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ë”Õô8¤“Èïö.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ÙßÉğøÿÿÿÿ8–Äïñö.

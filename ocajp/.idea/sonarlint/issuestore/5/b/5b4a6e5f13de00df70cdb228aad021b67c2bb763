@@ -1,19 +1,19 @@
 
-S	java:S106&"9Replace this use of System.out or System.err by a logger.(•È×Éÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Öå§Ëøÿÿÿÿ
-l
-java:S3457&"Q%n should be used in place of \n to produce the platform-specific line separator.(•È×Éÿÿÿÿÿ
-S	java:S106'"9Replace this use of System.out or System.err by a logger.(ƒÂÙÖüÿÿÿÿ
-S	java:S106	"9Replace this use of System.out or System.err by a logger.(–í˜úÿÿÿÿ
-g
-java:S3457 "Q%n should be used in place of \n to produce the platform-specific line separator.(éÛ
-g
-java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ÎŠæ
-N	java:S106 "9Replace this use of System.out or System.err by a logger.(éÛ
 N	java:S106"9Replace this use of System.out or System.err by a logger.(ÒïÂ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ƒÂÙÖüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Öå§Ëøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ñü½Ôşÿÿÿÿ
 N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎŠæ
 S	java:S106
 "9Replace this use of System.out or System.err by a logger.(°¯ÿÁüÿÿÿÿ
+g
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ÎŠæ
+l
+java:S3457&"Q%n should be used in place of \n to produce the platform-specific line separator.(•È×Éÿÿÿÿÿ
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(–í˜úÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(éÛ
 N	java:S106("9Replace this use of System.out or System.err by a logger.(ˆú¥ê
 N	java:S106"9Replace this use of System.out or System.err by a logger.(¢©²©
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ñü½Ôşÿÿÿÿ
+g
+java:S3457 "Q%n should be used in place of \n to produce the platform-specific line separator.(éÛ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(•È×Éÿÿÿÿÿ

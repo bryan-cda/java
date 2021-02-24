@@ -7,7 +7,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.Calendar;
 import java.util.Date;
 
-public class DateTypes {
+/* public class */ public class /*Data types is the name of class*/ DateTypes {
     public static void main(String[] args) {
 
         System.out.println("-- Date and Time types --");
