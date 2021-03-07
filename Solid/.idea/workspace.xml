@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0eda3db-e465-47e9-8c3f-603fcee398e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/BaseZeroCommaFivePercent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/BaseZeroCommaNinePercent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/BaseZeroCommaSixPercent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/Calculable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/DBA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/Developer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/EmployeeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/SalaryCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/TestSalary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/after/srp/Tester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/before/srp/DBA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/before/srp/Developer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/before/srp/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/before/srp/EmployeeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/before/srp/SalaryCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/before/srp/Tester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/AfterSale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/DAOModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/EmailModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/PurchaseRegister.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/SMSModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/Sale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/SaleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/coupling/DAOModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/coupling/EmailModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/coupling/PurchaseRegister.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/coupling/SMSModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaStandardEdition/br/com/jse/coupling/Sale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solid.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/BaseZeroCommaFivePercent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/BaseZeroCommaNinePercent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/BaseZeroCommaSixPercent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/DBA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/EmployeeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/SalaryCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/TestSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/after/srp/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/before/srp/DBA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/before/srp/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/before/srp/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/before/srp/EmployeeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/before/srp/SalaryCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/before/srp/TestSRP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/before/srp/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/couping/adjusted/AfterSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/couping/adjusted/DAOModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/couping/adjusted/EmailModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/couping/adjusted/PurchaseRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/couping/adjusted/SMSModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/couping/adjusted/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/couping/adjusted/SaleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/coupling/DAOModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/coupling/EmailModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/coupling/PurchaseRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/coupling/SMSModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/jse/coupling/Sale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/JavaStandardEdition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/BaseZeroCommaFivePercent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/BaseZeroCommaNinePercent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/BaseZeroCommaSixPercent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/Calculable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/DBA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/Developer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/EmployeeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/SalaryCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/TestSalary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/after/srp/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/before/srp/DBA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/before/srp/Developer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/before/srp/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/before/srp/EmployeeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/before/srp/SalaryCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/before/srp/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/AfterSale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/DAOModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/EmailModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/PurchaseRegister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/SMSModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/couping/adjusted/SaleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/coupling/DAOModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/coupling/EmailModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/coupling/PurchaseRegister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/coupling/SMSModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/coupling/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/BaseZeroCommaFivePercent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/BaseZeroCommaNinePercent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/BaseZeroCommaSixPercent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/Calculable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/DBA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/Developer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/EmployeeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/SalaryCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/TestSalary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/after/srp/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/before/srp/DBA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/before/srp/Developer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/before/srp/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/before/srp/EmployeeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/before/srp/SalaryCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/before/srp/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/couping/adjusted/AfterSale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/couping/adjusted/DAOModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/couping/adjusted/EmailModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/couping/adjusted/PurchaseRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/couping/adjusted/SMSModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/couping/adjusted/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/couping/adjusted/SaleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/coupling/DAOModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/coupling/EmailModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/coupling/PurchaseRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/coupling/SMSModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaStandardEdition/src/br/com/jse/coupling/Sale.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1pIp4qqyjY3gGTEwPoVXUuDR8Ug" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaStandardEdition" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestSRP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.jse.before.srp.TestSRP" />
+      <module name="solid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.jse.before.srp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="solid" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="solid" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestSRP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0eda3db-e465-47e9-8c3f-603fcee398e4" name="Default Changelist" comment="" />
+      <created>1614880271341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614880271341</updated>
+      <workItem from="1614880277076" duration="630000" />
+      <workItem from="1614940729745" duration="5002000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1614943025155">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1614943025155" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1614957181195">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614957181195" />
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1614957182020">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614957182020" />
+    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1614957182020">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614957182020" />
+    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1614957182020">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614957182020" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1614957182020">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614957182020" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1614953632650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614953632650" />
+  </component>
+</project>
