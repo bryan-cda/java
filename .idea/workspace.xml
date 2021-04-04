@@ -19,21 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17d712c0-e1c7-4fd8-8490-1ddb49c726ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStandardEdition/src/br/com/jse/control_flux/ControlFlux.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/operators/AssignmentOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/operators/AssignmentOperators.class" afterDir="false" />
-    </list>
+    <list default="true" id="17d712c0-e1c7-4fd8-8490-1ddb49c726ba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="java-unit-test-tdd" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -50,11 +47,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaStandardEdition" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ocajp" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,6 +64,7 @@
       <updated>1603746869779</updated>
       <workItem from="1603746871005" duration="50000" />
       <workItem from="1604633947761" duration="153000" />
+      <workItem from="1617415263231" duration="87000" />
     </task>
     <servers />
   </component>
@@ -82,15 +81,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604634099378">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1617415349270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604634099378" />
-    <state x="65" y="25" key="new project wizard" timestamp="1603746919051">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="65" y="25" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1603746919051" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1617415349270" />
   </component>
 </project>
