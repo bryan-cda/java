@@ -1,4 +1,4 @@
-package br.com.jse.colletions;
+package br.com.jse.collections;
 
 public class Classes implements Comparable<Classes> {
 
