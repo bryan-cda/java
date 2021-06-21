@@ -1,15 +1,17 @@
 package br.com.jse.collections;
 
-public class Students {
+public class Student implements Comparable<Student>{
     private String name;
     private String register;
+    private int age;
 
-    public Students(String name, String register) {
+    public Student(String name, String register, int age) {
         this.name = name;
         this.register = register;
+        this.age = age;
     }
 
-    public Students() {
+    public Student() {
     }
 
     public String getName() {
@@ -28,11 +30,25 @@ public class Students {
         this.register = register;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "Students{" +
                 "name='" + name + '\'' +
                 ", register='" + register + '\'' +
+                ", age=" + age +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Student student) {
+        return this.age - student.age;
     }
 }
