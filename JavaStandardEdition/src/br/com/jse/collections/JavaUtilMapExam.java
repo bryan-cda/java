@@ -35,7 +35,7 @@ public class JavaUtilMapExam {
 
        Map<String, List<String>> phones = new LinkedHashMap<>();
        phones.put("Motorola", asList("Moto G1", "Moto G2", "Moto G3", "Moto G4", "Moto G5", "Moto G6", "Moto G7", "Moto G8", "Moto G9"));
-       phones.put("Iphone", asList("X", "XII"));
+       phones.put("Iphone", asList("X", "XI"));
 
         System.out.println(phones);
 
