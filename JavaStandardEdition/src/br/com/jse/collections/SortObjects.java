@@ -4,9 +4,9 @@ import java.util.*;
 
 public class SortObjects {
     public static void main(String[] args) {
-        Student student001 = new Student("Alan", "001", 11);
-        Student student002 = new Student("Bryan", "002", 12);
-        Student student003 = new Student("Chloe", "003", 10);
+        Student student001 = new Student("Alan", "001", 11, "Java");
+        Student student002 = new Student("Bryan", "002", 12, "Python");
+        Student student003 = new Student("Chloe", "003", 10, "Golang");
 
         List<Student> studentClass = new ArrayList<>();
         studentClass.add(student001);
