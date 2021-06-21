@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
+import java.util.stream.Collectors;
 
 public class JavaUtilCollectionVectorExam {
     public static void main(String[] args) {
@@ -13,9 +14,7 @@ public class JavaUtilCollectionVectorExam {
         frameworks.add("Django");
         frameworks.add("Cake");
 
-        for (String f : frameworks){
-            System.out.println(f);
-        }
+        frameworks.forEach(System.out::println);
 
         Iterator<String> iterator = frameworks.iterator();
 

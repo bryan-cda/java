@@ -1,0 +1,8 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‡¤Ÿ”8„ãÎ¼¢/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¾Š—°ÿÿÿÿÿ8ìËÜ¼¢/
+‚
+java:S1149
+"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÀÂãÊ8¸žÊ¼¢/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¡¹—Òøÿÿÿÿ8¾‹Ñ¼¢/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ8ð›å¼¢/

@@ -9,7 +9,6 @@ import static java.lang.Thread.sleep;
 
 public class JavaUtilCollectionQueueExam {
     public static void main(String[] args) throws InterruptedException {
-        //Mounting queue
         Queue bankQueue = new LinkedList();
         bankQueue.add("Chloe");
         bankQueue.add("John");
@@ -18,7 +17,7 @@ public class JavaUtilCollectionQueueExam {
 
         bankService(bankQueue);
 
-        print(bankQueue);
+        bankQueue.forEach(System.out::println);
 
         //Remove using FIFO
         Object poll = bankQueue.poll();
@@ -30,9 +29,6 @@ public class JavaUtilCollectionQueueExam {
 
         bankQueue.add("Chloe");
         print(bankQueue);
-
-
-
     }
 
     public static void print(Object object){
@@ -56,6 +52,5 @@ public class JavaUtilCollectionQueueExam {
                 System.out.println("next customer");
             }
         }
-
     }
 }

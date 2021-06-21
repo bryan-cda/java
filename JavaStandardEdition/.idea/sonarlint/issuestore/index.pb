@@ -19,3 +19,11 @@ V
 &src/br/com/jse/io/PrintStreamTest.java,0\9\09176c30045cc187b722d3f2e6bb43733e09a2ad
 R
 "src/br/com/jse/io/ScannerTest.java,3\5\35968c93ed9239e77128f1136ee5a3ea2320dd73
+l
+<src/br/com/jse/collections/JavaUtilCollectionVectorExam.java,e\a\ea8c27956d00394b7bc10ea73a036d2ab816a74f
+W
+'src/br/com/jse/collections/Classes.java,1\2\12f8c404aced1027e941fba2ec99d8a9cab2510b
+j
+:src/br/com/jse/collections/JavaUtilCollectionListExam.java,9\d\9d44db44574a83e68341223df7431a791438996c
+k
+;src/br/com/jse/collections/JavaUtilCollectionQueueExam.java,2\b\2b036ae15dcbb172597d92eeeb24cd8b309f9ad5

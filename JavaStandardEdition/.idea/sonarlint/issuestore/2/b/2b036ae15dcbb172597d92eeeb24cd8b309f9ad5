@@ -1,0 +1,21 @@
+
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(ŸñÄ˜ûÿÿÿÿ8İÒ¦¿¢/
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(µ«üœÿÿÿÿÿ8ïïš¿¢/
+Q
+java:S3740"/Provide the parametrized type for this generic.(í÷şÿÿÿÿ8“á¾¢/
+:
+java:S2119*"Save and re-use this "Random".(¼İÅf8ª¼¯¿¢/
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(Ÿ¯’Ñ8ïïš¿¢/
+L
+java:S3740'"/Provide the parametrized type for this generic.(¶§é’8¨é•¿¢/
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ8œï“¿¢/
+U	java:S106."9Replace this use of System.out or System.err by a logger.(Ä—óş8Î™¿¢/
+V
+java:S1854'"9Remove this useless assignment to local variable "queue".(¶§é’8¨é•¿¢/
+Q
+java:S3740"/Provide the parametrized type for this generic.(í÷şÿÿÿÿ8“á¾¢/
+L
+java:S3740)"/Provide the parametrized type for this generic.(ÀÜ°ı8ïïš¿¢/
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(šÔšûÿÿÿÿ8Î‚¥¿¢/
+L
+java:S3740'"/Provide the parametrized type for this generic.(¶§é’8œï“¿¢/
