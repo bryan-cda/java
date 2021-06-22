@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,14 +22,70 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17d712c0-e1c7-4fd8-8490-1ddb49c726ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStandardEdition/src/br/com/jse/control_flux/ControlFlux.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/operators/AssignmentOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStandardEdition/out/production/JavaStandardEdition/br/com/jse/operators/AssignmentOperators.class" afterDir="false" />
+    <list default="true" id="18a01776-04a7-42f4-b604-2b03aa1e0bee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a1c2f4d273356c7ea6ae0774ec598ec26c7aa9d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4c19cd29fc850d414816a655eff0735dd26dbe6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/LeilaoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/controller/ErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/controller/LanceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/controller/LeilaoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/dao/JpaUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/dao/LanceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/dao/LeilaoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/dto/NovoLanceDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/dto/NovoLeilaoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/model/Lance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/model/Leilao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/security/LeilaoUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/security/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/service/LanceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/java/br/com/alura/leilao/util/AuctionDataBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/resources/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/resources/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/resources/templates/leilao/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/resources/templates/leilao/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/resources/templates/leilao/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/test/java/br/com/alura/leilao/dao/AuctionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/test/java/br/com/alura/leilao/dao/UserDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/integration-test/src/test/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/out/production/tests/br/com/auction/Auction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/out/production/tests/br/com/auction/AuctionExecution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/out/production/tests/br/com/auction/Offering.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/out/production/tests/br/com/auction/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/out/production/tests/br/com/auction/builder/AuctionBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/out/production/tests/br/com/auction/service/AuctionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/br/com/auction/Auction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/br/com/auction/AuctionExecution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/br/com/auction/Offering.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/br/com/auction/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/br/com/auction/builder/AuctionBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/br/com/auction/service/AuctionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/tests.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,29 +102,25 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1jQqsXjcfBBed8r5VTvGUWteDez" />
+  <component name="ProjectId" id="1uGpBrrlLv1YxpviYspSmHIwZXv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaStandardEdition" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="17d712c0-e1c7-4fd8-8490-1ddb49c726ba" name="Default Changelist" comment="" />
-      <created>1603746869779</created>
+      <changelist id="18a01776-04a7-42f4-b604-2b03aa1e0bee" name="Default Changelist" comment="" />
+      <created>1624301648714</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603746869779</updated>
-      <workItem from="1603746871005" duration="50000" />
-      <workItem from="1604633947761" duration="153000" />
+      <updated>1624301648714</updated>
+      <workItem from="1624301649846" duration="94000" />
     </task>
     <servers />
   </component>
@@ -84,13 +139,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604634099378">
+    <state x="65" y="25" key="new project wizard" timestamp="1624301743232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604634099378" />
-    <state x="65" y="25" key="new project wizard" timestamp="1603746919051">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="65" y="25" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1603746919051" />
+    <state x="65" y="25" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1624301743232" />
   </component>
 </project>
